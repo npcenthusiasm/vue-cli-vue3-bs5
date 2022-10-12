@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// Import our custom CSS
+import './assets/scss/styles.scss'
+
+createApp(App).mount('#app');

@@ -1,16 +1,15 @@
 <template>
   <div>
-    <TodoList/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import TodoList from './components/TodoList.vue'
 
 export default {
   name: 'App',
   components: {
-    TodoList
+    // TodoList
   }
 }
 </script>
